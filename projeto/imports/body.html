@@ -1,0 +1,41 @@
+<body>
+  <div class="container">
+    <header>
+      <h1>Atividade de Projeto e Desenvolvimento de Software</h1>
+    </header>
+
+    <ul>
+      {{> loginButtons}}
+      {{#if currentUser}}
+      <form>
+      <p>Quais são seus super-hérois favoritos?</p>
+      <input type="checkbox" name="pergunta1" value="Capitã Marvel">Capitã Marvel<br>
+      <input type="checkbox" name="pergunta1" value="Homem de Ferro">Homem de Ferro<br>
+      <input type="checkbox" name="pergunta1" value="Thor">Thor<br>
+      <input type="checkbox" name="pergunta1" value="Capitão América">Capitão América<br>
+      <input type="checkbox" name="pergunta1" value="Mulher Maravilha">Mulher Maravilha<br>
+      <input type="checkbox" name="pergunta1" value="Batman">Batman<br>
+      <input type="checkbox" name="pergunta1" value="Hulk">Hulk<br>
+      <input type="checkbox" name="pergunta1" value="Super-Homem">Super-Homem<br>
+      <input type="text" name="text" placeholder="Outro" />
+      <input type="submit">
+      </form>
+      <form>
+      <p>Qual sua cor favorita?</p>
+      <input type="checkbox" name="pergunta1" value="Amarelo">Amarelo<br>
+      <input type="checkbox" name="pergunta1" value="Vermelho">Vermelho<br>
+      <input type="checkbox" name="pergunta1" value="Azul">Azul<br>
+      <input type="checkbox" name="pergunta1" value="Verde">Verde<br>
+      <input type="checkbox" name="pergunta1" value="Preto">Preto<br>
+      <input type="checkbox" name="pergunta1" value="Branco">Branco<br>
+      <input type="checkbox" name="pergunta1" value="Violeta">Violeta<br>
+      <input type="checkbox" name="pergunta1" value="Roxo">Roxo<br>
+      <input type="text" name="text" placeholder="Outro" />
+      <input type="submit">
+      </form>
+     {{/if}}
+      
+    </ul>
+  </div>
+
+</body>
